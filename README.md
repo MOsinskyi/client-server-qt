@@ -1,4 +1,4 @@
-<img src="/home/maksym/Downloads/—Pngtree—modern isometric server illustrated on_6202098.png" alt="—Pngtree—modern isometric server illustrated on_6202098" style="zoom: 25%;" />
+<img src="images/server.png" alt="server" style="zoom:25%;" />
 
 # Client-Server Qt
 
