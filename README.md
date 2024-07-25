@@ -1,4 +1,4 @@
-<img src="images/server.png" alt="server" style="zoom:25%;" />
+![server](images/server.png)
 
 # Client-Server Qt
 
