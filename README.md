@@ -1,6 +1,6 @@
 ![server](images/server.png)
 
-![Static Badge](https://img.shields.io/badge/_6.2-gray?logo=qt) ![GitHub License](https://img.shields.io/github/license/MOsinskyi/client-server-qt?color=blue) ![GitHub repo size](https://img.shields.io/github/repo-size/MOsinskyi/client-server-qt)![GitHub last commit](https://img.shields.io/github/last-commit/MOsinskyi/client-server-qt?color=red)![GitHub top language](https://img.shields.io/github/languages/top/MOsinskyi/client-server-qt?color=orange)
+![Static Badge](https://img.shields.io/badge/_6.2-gray?logo=qt) ![GitHub License](https://img.shields.io/github/license/MOsinskyi/client-server-qt?color=blue) ![GitHub repo size](https://img.shields.io/github/repo-size/MOsinskyi/client-server-qt) ![GitHub last commit](https://img.shields.io/github/last-commit/MOsinskyi/client-server-qt?color=red) ![GitHub top language](https://img.shields.io/github/languages/top/MOsinskyi/client-server-qt?color=orange)
 
 
 # Client-Server Qt
