@@ -1,6 +1,6 @@
 ![server](images/server.png)
 
-![Static Badge](https://img.shields.io/badge/_6.2-gray?logo=qt) ![GitHub License](https://img.shields.io/github/license/MOsinskyi/client-server-qt?color=blue) ![GitHub repo size](https://img.shields.io/github/repo-size/MOsinskyi/client-server-qt)![GitHub last commit](https://img.shields.io/github/last-commit/MOsinskyi/client-server-qt?color=red)![GitHub top language](https://img.shields.io/github/languages/top/MOsinskyi/client-server-qt?color=orange)
+![Static Badge](https://img.shields.io/badge/_6.2-gray?logo=qt) ![GitHub License](https://img.shields.io/github/license/MOsinskyi/client-server-qt?color=blue) ![GitHub repo size](https://img.shields.io/github/repo-size/MOsinskyi/client-server-qt) ![GitHub Release](https://img.shields.io/github/v/release/MOsinskyi/client-server-qt?color=purple) 
 
 
 # Client-Server Qt
@@ -50,6 +50,80 @@ make
 ```bash
 ./build/client-server-qt
 ```
+
+## 📦 Installation
+
+### Linux Ubuntu
+
+1. Go to release page.
+
+2. Download ubuntu package: `server-app-linux-ubuntu.deb`.
+
+3. Open terminal.
+
+4. Go to downloads folder:
+
+   ```bash
+   cd ~/Downloads
+   ```
+
+5. Run `dpkg` command with root:
+
+   ```bash
+   sudo dpkg -i server-app-linux-ubuntu.deb
+   ```
+
+### Other Linux distro
+
+1. Go to release page.
+2. Chose package: `server-app-linux-installer.run` or `server-app-linux-portable.zip`
+
+> [!NOTE]
+>
+> `server-app-linux-portable.zip` and `server-app-linux-installer.run` also work in ubuntu disto
+
+3. Run the installer using command:
+
+   ```bash
+   cd ~/YOUR_DOWNLOADS_FOLDER
+   chmod +x server-app-linux-installer.run
+   ./server-app-linux-installer.run
+   ```
+
+   *Or*
+
+   Click **right** mouse button, go to **Properties** and check if **Executable as Program** is turned on next double click left mouse button to start the installer application.
+
+4. Extract the `server-app-linux-portable.zip` package.
+
+5. Find `server-app.sh`.
+
+6. Make the file **Executable as Program**:
+
+   ```bash
+   chmod +x server-app.sh
+   ```
+
+   Or
+
+   *In Properties Window turn on `Executable as Program`*
+
+7. Run the script:
+
+   ```bash
+   ./server-app-sh
+   ```
+
+8. Done ✅.
+
+### Windows
+
+1. Go to release page.
+2. Chose package: `server-app-windows-installer.exe` or `server-app-windows-portable.zip`.
+3. Run `server-app-windows-installer.exe` as administrator and follow the instructions on the screen.
+4. Extract files from `server-app-windows-portable.zip`.
+5. Run `server-app.bat`.
+6. Done ✅.
 
 ## 🧩 Project Structure
 

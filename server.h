@@ -13,8 +13,6 @@ class Server : public QTcpServer
 public:
     Server();
 
-    const qint16 port = 2323;
-
     QTcpSocket* socket;
 
     void sendToClient(QString str);

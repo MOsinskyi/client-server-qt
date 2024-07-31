@@ -2,7 +2,7 @@
 
 Server::Server()
 {
-    (this->listen(QHostAddress::Any, port) ? qDebug() << "start..." : qDebug() << "error!");
+    (this->listen(QHostAddress::Any, 2323) ? qDebug() << "start..." : qDebug() << "error:" << this->errorString());
 
     nextBlockSize = 0;
 }
