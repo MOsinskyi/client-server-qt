@@ -22,6 +22,8 @@ public slots:
     void slotReadyRead();
 
 private:
+    const int version = QDataStream::Qt_6_2;
+
     QVector <QTcpSocket*> sockets;
     QByteArray data;
 

@@ -2,7 +2,9 @@
 
 Server::Server()
 {
-    (this->listen(QHostAddress::Any, 2323) ? qDebug() << "start..." : qDebug() << "error:" << this->errorString());
+    (this->listen() ? qDebug() << "start..." : qDebug() << "error:" << this->errorString());
+
+    qDebug() << "IP Adress: " << this->serverAddress().toString() << "Port: " << this->serverPort();
 
     nextBlockSize = 0;
 }
@@ -11,7 +13,7 @@ void Server::sendToClient(QString str)
 {
     data.clear();
     QDataStream out(&data, QIODevice::WriteOnly);
-    out.setVersion(QDataStream::Qt_6_2);
+    out.setVersion(version);
     out << quint16(0) << QTime::currentTime() << str;
     out.device()->seek(0);
     out << quint16(data.size() - sizeof(quint16));
@@ -37,7 +39,7 @@ void Server::slotReadyRead()
     socket = (QTcpSocket*)sender();
 
     QDataStream in(socket);
-    in.setVersion(QDataStream::Qt_6_2);
+    in.setVersion(version);
 
     if(in.status() == QDataStream::Ok){
         for(;;) {
