@@ -76,11 +76,11 @@ make
 ### Other Linux distro
 
 1. Go to release page.
-2. Chose package: `server-app-linux-installer.run` or `server-app-linux-portable.zip`
+2. Chose package: `client-server-linux-installer.run` or `server-app-linux-portable.zip`
 
 > [!NOTE]
 >
-> `server-app-linux-portable.zip` and `server-app-linux-installer.run` also work in ubuntu disto
+> `server-app-linux-portable.zip` and `client-server-linux-installer.run` also work in ubuntu disto
 
 3. Run the installer using command:
 
@@ -119,8 +119,8 @@ make
 ### Windows
 
 1. Go to release page.
-2. Chose package: `server-app-windows-installer.exe` or `server-app-windows-portable.zip`.
-3. Run `server-app-windows-installer.exe` as administrator and follow the instructions on the screen.
+2. Chose package: `client-server-windows-installer.exe` or `server-app-windows-portable.zip`.
+3. Run `client-server-windows-installer.exe` as administrator and follow the instructions on the screen.
 4. Extract files from `server-app-windows-portable.zip`.
 5. Run `server-app.bat`.
 6. Done ✅.
